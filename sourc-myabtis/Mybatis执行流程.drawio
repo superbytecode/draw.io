@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T08:51:59.757Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="VSG1x45cb2Mg2SF2beoK" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T11:04:29.481Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="bRkEDdmx0gAZ-IOiKaH9" version="22.1.11" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="706" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -354,10 +354,213 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zjFDjqaOxEZ_G2lJnjP6-186" value="&lt;b&gt;SQL查询核心流程&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=150;height=40;strokeColor=#CCCC00;gradientColor=none;fillColor=#CCCC00;" vertex="1" parent="1">
-          <mxGeometry x="69" y="2040" width="1220" height="640" as="geometry" />
+          <mxGeometry x="70" y="2040" width="1520" height="910" as="geometry" />
         </mxCell>
-        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-187" value="MapperProxy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="100" y="2100" width="160" height="300" as="geometry" />
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-187" value="&lt;b&gt;MapperProxy&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="100" y="2100" width="120" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-188" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="zjFDjqaOxEZ_G2lJnjP6-187">
+          <mxGeometry x="55" y="67" width="10" height="223" as="geometry" />
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-191" value="userMapper.selectUserById(100001L)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;dashed=1;strokeWidth=1;strokeColor=#4D4D4D;" edge="1" parent="1">
+          <mxGeometry x="1" y="20" width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="2160" as="sourcePoint" />
+            <mxPoint x="160" y="2160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120.5" y="2160" />
+            </Array>
+            <mxPoint x="20" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-192" value="&lt;b&gt;MapperMethod&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="331" y="2100" width="119" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-193" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="zjFDjqaOxEZ_G2lJnjP6-192">
+          <mxGeometry x="55" y="190" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-200" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="zjFDjqaOxEZ_G2lJnjP6-192">
+          <mxGeometry x="55" y="270" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-204" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="zjFDjqaOxEZ_G2lJnjP6-192">
+          <mxGeometry x="55" y="398" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-195" value="self call" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="2380" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="40" y="2410" />
+            </Array>
+            <mxPoint x="10" y="2410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-196" value="&lt;font color=&quot;#ff6666&quot;&gt;2.执行Mapper接口中定义的方法&lt;br&gt;cachedInvoker(method)&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;strokeColor=#FF6666;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="167" y="2231" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="197" y="2261" />
+            </Array>
+            <mxPoint x="167" y="2261" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-197" value="&lt;font color=&quot;#ff6666&quot;&gt;1.执行拦截方法invoke&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;strokeColor=#FF6666;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="166" y="2180" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="196" y="2210" />
+            </Array>
+            <mxPoint x="166" y="2210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-198" value="&lt;font color=&quot;#00ff00&quot;&gt;3.new MapperMethod(xx,xx,xx)&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;strokeColor=#00FF00;" edge="1" parent="1" target="zjFDjqaOxEZ_G2lJnjP6-192">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="165" y="2300" as="sourcePoint" />
+            <mxPoint x="245" y="2300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-199" value="&lt;font color=&quot;#ff6666&quot;&gt;4.执行PlainMethodInvoker#invoke&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;strokeColor=#FF6666;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="167" y="2320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="197" y="2350" />
+            </Array>
+            <mxPoint x="167" y="2350" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-201" value="&lt;font color=&quot;#00ff00&quot;&gt;5.new MapperMethod(xx,xx,xx)&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;strokeColor=#00FF00;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="165" y="2380" as="sourcePoint" />
+            <mxPoint x="386" y="2380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-202" value="&lt;font color=&quot;#ff6666&quot;&gt;6.根据commod的类型判断执行业务&lt;br&gt;增删改查操作&lt;br&gt;&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;strokeColor=#FF6666;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="396" y="2386" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="426" y="2416" />
+            </Array>
+            <mxPoint x="396" y="2416" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-203" value="&lt;font color=&quot;#ff6666&quot;&gt;7.根据method封装执行参数param&lt;br&gt;并返回增删改查操作，&lt;br&gt;如果是FLUSH则直接返回&lt;br&gt;&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;strokeColor=#FF6666;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399" y="2440" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="429" y="2470" />
+            </Array>
+            <mxPoint x="399" y="2470" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-206" value="&lt;b&gt;DefaultSqlSession&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="550" y="2100" width="150" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-210" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="zjFDjqaOxEZ_G2lJnjP6-206">
+          <mxGeometry x="70" y="410" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-211" value="&lt;font color=&quot;#00ff00&quot;&gt;8.sqlSession.selectOne&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;strokeColor=#00FF00;" edge="1" parent="1" target="zjFDjqaOxEZ_G2lJnjP6-206">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="398" y="2510" as="sourcePoint" />
+            <mxPoint x="478" y="2510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-212" value="&lt;font color=&quot;#ff6666&quot;&gt;9.this.selectList(xx,xx)&lt;br&gt;仅匹配一个返回值，否则抛异常&lt;br&gt;&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;strokeColor=#FF6666;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="2520" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="660" y="2550" />
+            </Array>
+            <mxPoint x="630" y="2550" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-213" value="&lt;font color=&quot;#ff6666&quot;&gt;10.获取MapperStatement对象&lt;br&gt;configuration.getMappedStatement(statement).&lt;br&gt;&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;strokeColor=#FF6666;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="2570" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="660" y="2600" />
+            </Array>
+            <mxPoint x="630" y="2600" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-214" value="&lt;b&gt;BaseExecutor&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="855" y="2100" width="120" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-215" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="zjFDjqaOxEZ_G2lJnjP6-214">
+          <mxGeometry x="55" y="533" width="10" height="257" as="geometry" />
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-216" value="&lt;font color=&quot;#00ff00&quot;&gt;11.执行器执行查询操作&lt;br&gt;executor.query(ms, xxx, rowBounds, handler)&lt;br&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;strokeColor=#00FF00;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="630" y="2637" as="sourcePoint" />
+            <mxPoint x="914.5" y="2637" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-217" value="&lt;font color=&quot;#ff6666&quot;&gt;12.获取BoundSql对象，sql的详细信息&lt;br&gt;ms.getBoundSql(&lt;/font&gt;&lt;font color=&quot;#ff0080&quot;&gt;parameter&lt;/font&gt;&lt;font color=&quot;#ff6666&quot;&gt;)&lt;br&gt;&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;strokeColor=#FF6666;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="2644" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="950" y="2674" />
+            </Array>
+            <mxPoint x="920" y="2674" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-218" value="&lt;font color=&quot;#ff6666&quot;&gt;13.创建本次查询的缓存信息&lt;br&gt;createCacheKey(&lt;/font&gt;&lt;font color=&quot;#ff0080&quot;&gt;ms,paramter,eowBounds,boundSql&lt;/font&gt;&lt;font color=&quot;#ff6666&quot;&gt;)&lt;br&gt;&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;strokeColor=#FF6666;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="2690" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="950" y="2720" />
+            </Array>
+            <mxPoint x="920" y="2720" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-219" value="&lt;font color=&quot;#ff6666&quot;&gt;14.委托给query(xx,xx,xx,xx,xx,xx)执行查询操作&lt;br&gt;优先葱缓存查询找，缓存没有则查询数据库&lt;br&gt;&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;strokeColor=#FF6666;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="2730" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="950" y="2760" />
+            </Array>
+            <mxPoint x="920" y="2760" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-221" value="&lt;b&gt;SimpleExecutor&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1181" y="2100" width="129" height="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-222" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="zjFDjqaOxEZ_G2lJnjP6-221">
+          <mxGeometry x="59.5" y="699" width="10" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-225" value="&lt;font color=&quot;#00ff00&quot;&gt;15.查询数据库，doQuery(xx,xx,xx,xx,xx)&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;strokeColor=#00FF00;" edge="1" parent="1" target="zjFDjqaOxEZ_G2lJnjP6-221">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="920" y="2800" as="sourcePoint" />
+            <mxPoint x="1000" y="2800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-226" value="&lt;b&gt;PreparedStatementHandler&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="2100" width="210" height="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-227" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="zjFDjqaOxEZ_G2lJnjP6-226">
+          <mxGeometry x="100" y="710" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-228" value="&lt;font color=&quot;#00ff00&quot;&gt;15.查询数据库，doQuery(xx,xx,xx,xx,xx)&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;strokeColor=#00FF00;entryX=0.3;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="zjFDjqaOxEZ_G2lJnjP6-227">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1250" y="2820" as="sourcePoint" />
+            <mxPoint x="1460" y="2820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjFDjqaOxEZ_G2lJnjP6-229" value="&lt;font color=&quot;#ff6666&quot;&gt;16.query&lt;br&gt;&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;strokeColor=#FF6666;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1490" y="2830" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1520" y="2860" />
+            </Array>
+            <mxPoint x="1490" y="2860" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
