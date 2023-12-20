@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T03:58:19.380Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="iRE8vgCIV_cL1KSE7gfU" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-20T03:59:07.556Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qOyNY_VDWtBk_uSPMqB8" version="22.1.11" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="594" dy="2478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -385,7 +385,7 @@
           <mxGeometry x="55" y="398" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zoMNjW4xM1GoOlofHWxw-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="zjFDjqaOxEZ_G2lJnjP6-192">
-          <mxGeometry x="59.5" y="970" width="10" height="80" as="geometry" />
+          <mxGeometry x="59.5" y="970" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zjFDjqaOxEZ_G2lJnjP6-196" value="&lt;font color=&quot;#ff6666&quot;&gt;2.执行Mapper接口中定义的方法&lt;br&gt;cachedInvoker(method)&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;strokeColor=#FF6666;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -560,7 +560,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zoMNjW4xM1GoOlofHWxw-2" value="&lt;b&gt;19.调用ResultSetHandler来将查询结果处理成Mapper中指定的ResultType类型的Java对象列表&lt;/b&gt;&lt;br&gt;&lt;b&gt;List&amp;lt;T&amp;gt; list = this.selectList(statement, parameter)&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1" target="zjFDjqaOxEZ_G2lJnjP6-206">
+        <mxCell id="zoMNjW4xM1GoOlofHWxw-2" value="&lt;b&gt;19.调用ResultSetHandler来将查询结果处理成Mapper中指定的ResultType类型的Java对象列表&lt;br&gt;List&amp;lt;T&amp;gt; list = this.selectList(statement, parameter)&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1" target="zjFDjqaOxEZ_G2lJnjP6-206">
           <mxGeometry x="0.0006" relative="1" as="geometry">
             <mxPoint x="1480" y="3069" as="sourcePoint" />
             <mxPoint x="1250" y="3069" as="targetPoint" />
